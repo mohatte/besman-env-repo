@@ -33,8 +33,12 @@ ENV_REPOS_ZIP_FILE="archive/master.zip"
 
 #"https://api.github.com/repos/$namespace/$repo_name"
 BESNAN_ENV_REPOS_BASE_URL="https://api.github.com/repos"
-BESMAN_DIST_FILE="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/dist/dist/besman-latest.zip"
-BESMAN_DIST_ENV="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/master/dist/environments"
+
+#BESMAN_DIST_FILE="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/dist/dist/besman-latest.zip"
+#BESMAN_DIST_ENV="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/master/dist/environments"
+
+BESMAN_DIST_FILE="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/master/dist/besman-latest.zip"
+BESMAN_DIST_ENV="${BESMAN_SERVICE}/${BESMAN_NAMESPACE}/BeSman/main/master/dist/environments"
 
 
 if [ -z "$BESMAN_DIR" ]; then
